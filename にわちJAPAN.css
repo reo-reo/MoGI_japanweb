@@ -1,0 +1,259 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+}
+
+html {
+    color: yellow;
+    overflow-x: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    -webkit-text-stroke: 1px #000000;
+    background-image: url(IMAGES/ja.png);
+    background-size: contain;
+    font-size: 60px;
+}
+
+.niwa-header {
+    position: relative;
+    height: 100vh;
+}
+
+
+.niwa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.video {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.7;
+}
+
+nav a {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 0px;
+    list-style: none;
+    padding: 14px 80px;
+}
+
+nav div {
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    text-align: center;
+}
+
+.niwa {
+    position: relative;
+    margin-top: -1100px;
+    margin-left: 300px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.niwatakumi {
+    flex: 3;
+    margin-top: 60px;
+    margin-left: -450px;
+}
+
+.niwa2 {
+    flex: 1;
+    position:absolute;
+    transform: translate(30%,0%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -250px;
+}
+
+.niwa-p {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: -50px;
+}
+
+.niwa-img {
+    flex: 2;
+    padding: 5px;
+    margin-top: -100px;
+    margin-bottom: -80px;
+}
+
+.niwa-img img {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+    background-size: contain;
+    
+}
+
+.niwa-table {
+    flex: 3;
+    padding: 5px;
+    margin: 0 0 240px  50px;
+}
+
+.member-title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 48px;
+    background-color: blue;
+}
+
+.member-place {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px; 
+    gap: 10px;
+    grid-template-rows: 500px 500px 500px 500px;
+    margin-left: -60px
+}
+
+.member-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member-niwa p {
+    margin-left: 350px;
+}
+
+div table {
+    background-color: rgba(0,0,200,0.5);
+    border-style: solid;
+}
+
+
+.niwa-border {
+    color: aqua;
+    flex: 4;
+    padding: 5px;
+    margin-top: -200px;
+    background-color: rgba(0,100,100,0.5);
+}
+
+div li {
+    border-style: none none solid none;
+    border-color: aqua;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100px 15px;
+    padding-top: 20px;
+}
+
+.barun {
+    flex: 2;
+    margin-top: 60px;
+    margin-left: -250px;
+}
+
+.ub {
+    text-align: center;
+    font-size: 30px;
+}
+
+.niwa-live {
+    display: flex;
+    flex-direction: column;
+}
+
+.niwa-live  p {
+    font-size: 50px;
+}
+
+.live1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px
+}
+
+.live1-1 {
+    flex: 1;
+}
+
+.live1-1 p {
+    margin-left: 180px;
+}
+
+.live1-1 img {
+    margin-top: -150px;
+}
+
+.live1-2 {
+    flex: 2;
+    margin-left: 200px;
+}
+
+.live2 {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+}
+
+.live2-1 {
+    flex: 1;
+}
+
+.live2-1 p {
+    margin-left: 340px;
+}
+
+.live2-1 img {
+    margin-top: -50px;
+}
+
+.live2-2 {
+    flex: 2;
+    margin-left: -30px;
+    margin-top: 100px;
+}
+
+.live3 {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+.live3-1 {
+    flex: 1;
+}
+
+.live3-1 p {
+    margin-left: 270px;
+}
+
+.live3-1 img {
+    margin-top: -50px;
+    margin-left: -60px;
+}
+
+.live3-2 {
+    flex: 2;
+    margin-top: 100px;
+}
